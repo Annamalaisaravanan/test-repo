@@ -1,1 +1,1 @@
-print("Main branch")
+print("Staging branch")
