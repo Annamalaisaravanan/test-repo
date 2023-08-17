@@ -1,0 +1,1 @@
+print("This is to check branch protection rule in staging")
