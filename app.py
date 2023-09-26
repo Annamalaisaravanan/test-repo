@@ -1,3 +1,6 @@
 import pandas as pd
-print("Production branchegrgere")
+import os
+
+access_key = os.environ.get('access_key')
+print(access_key)
 print("Hi")
