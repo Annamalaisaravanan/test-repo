@@ -4,7 +4,8 @@ pipeline {
 
         stage('Dependencies'){
             steps{
-                sh "pip install pandas"
+                 
+                sh "pip3 install pandas"
             }
         }
         stage('python script') {
