@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
 
-        stage('Dependencies') {
+        stage('python script') {
             steps {
               sh "python3 app.py"
             }
